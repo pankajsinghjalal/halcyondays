@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /*------------------------------------------------------------------
   [Table of contents]
   * To keep an overview of structure of your code, we make use of table of
@@ -25,6 +27,7 @@
       4.3.5. Advertisements / .ads
   5. Footer / .footer
   ------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------
   [Color codes]
   * Mention the color code you have used in your html document for the respective
@@ -37,6 +40,7 @@
   Header nav a (hover): #fff (white)
   Header nav a (active): #fff (white)
   -------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------
   [Typography]
   * Mention the Typography you have used in your html document for the respective
@@ -48,170 +52,195 @@
   Header nav a: 16px 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   View-register li a : 12px 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   -------------------------------------------------------------------*/
+
 /* ==========================================================================
    1. CSS Reset Code
    ========================================================================== */
+
 /* 1.1. Eric Meyers Reset
    http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  padding: 0;
-  margin: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-  border: 0; }
+   html,
+   body,
+   div,
+   span,
+   applet,
+   object,
+   iframe,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p,
+   blockquote,
+   pre,
+   a,
+   abbr,
+   acronym,
+   address,
+   big,
+   cite,
+   code,
+   del,
+   dfn,
+   em,
+   img,
+   ins,
+   kbd,
+   q,
+   s,
+   samp,
+   small,
+   strike,
+   strong,
+   sub,
+   sup,
+   tt,
+   var,
+   b,
+   u,
+   i,
+   center,
+   dl,
+   dt,
+   dd,
+   ol,
+   ul,
+   li,
+   fieldset,
+   form,
+   label,
+   legend,
+   table,
+   caption,
+   tbody,
+   tfoot,
+   thead,
+   tr,
+   th,
+   td,
+   article,
+   aside,
+   canvas,
+   details,
+   embed,
+   figure,
+   figcaption,
+   footer,
+   header,
+   hgroup,
+   menu,
+   nav,
+   output,
+   ruby,
+   section,
+   summary,
+   time,
+   mark,
+   audio,
+   video {
+   	padding: 0;
+   	margin: 0;
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block; }
+   	font: inherit;
+   	font-size: 100%;
 
-/* Force scrollbar */
-html {
-  overflow-y: scroll; }
+   	vertical-align: baseline;
 
-/* Align radios and text inputs with their label */
-input[type="radio"] {
-  vertical-align: text-bottom; }
+   	border: 0;
+   }
 
-/* Hand cursor on clickable input elements */
-label,
-input[type="button"],
-input[type="submit"],
-button
-a {
-  cursor: pointer; }
+   /* HTML5 display-role reset for older browsers */
+   article,
+   aside,
+   details,
+   figcaption,
+   figure,
+   footer,
+   header,
+   hgroup,
+   menu,
+   nav,
+   section {
+   	display: block;
+   }
 
-strong {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: bold; }
+   /* Force scrollbar */
+   html {
+   	overflow-y: scroll;
+   }
 
-em {
-  font-style: italic; }
+   /* Align radios and text inputs with their label */
 
-img {
-  vertical-align: middle;
-  border: 0; }
+   input[type="radio"] {
+   	vertical-align: text-bottom;
+   }
 
-sub,
-sup {
-  position: relative;
-  font-size: 55%;
-  line-height: 0;
-  vertical-align: baseline; }
+   /* Hand cursor on clickable input elements */
+   label,
+   input[type="button"],
+   input[type="submit"],
+   button 
+   a {
+   	cursor: pointer;
+   }
 
-sup {
-  top: -.7em; }
+   strong {
+   	font-family: inherit;
+   	font-size: inherit;
+   	font-weight: bold;
+   }
 
-sub {
-  bottom: -.25em; }
+   em {
+   	font-style: italic;
+   }
+
+   img {
+   	vertical-align: middle;
+
+   	border: 0;
+   }
+
+   sub,
+   sup {
+   	position: relative;
+
+   	font-size: 55%;
+   	line-height: 0;
+
+   	vertical-align: baseline;
+   }
+
+   sup {
+   	top: -.7em;
+   }
+
+   sub {
+   	bottom: -.25em;
+   }
 
 /* 1.2. Clear Fix
 ========================================================================== */
+
 .cf:before,
 .cf:after {
-  display: table;
-  content: " "; }
+	display: table;
+
+	content: " ";
+}
 
 .cf:after {
-  clear: both; }
+	clear: both;
+}
 
 /*.cf {
 	*zoom: 1;
 }*/
+
 /* 1.3. Font class declaration
 ========================================================================== */
 /*
@@ -225,9 +254,11 @@ sub {
  * as this is just and example to let you know. If there is only one font family
  * followed throughout the site, then menstion the font property in body. No need
  * of creating an extra class for it) */
-.futura-bold-font {
-  font-family: "Futura Bold", "Gill Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: bold; }
 
-/*# sourceMappingURL=style.css.map */
+ .futura-bold-font {
+ 	font-family: "Futura Bold", "Gill Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 	font-style: normal;
+ 	font-weight: bold;
+ }
+
+ 
