@@ -376,4 +376,26 @@ ul.carousels {
   .responsive-design-wrapper .carousels {
     margin-top: 30%; }
 
+/* 2.4 Problems
+========================================================================== */
+.problems {
+  background: url(../images/image_counter.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.problems-wrapper {
+  padding: 7% 0;
+  text-align: center; }
+  .problems-wrapper p {
+    color: #fff;
+    letter-spacing: 12px;
+    word-spacing: 6px;
+    text-transform: uppercase; }
+  .problems-wrapper .got-problems {
+    font: 400 3vw roboto, opensans, sans-serif; }
+  .problems-wrapper .no-problems {
+    font: 400 1.5vw roboto, opensans, sans-serif; }
+    .problems-wrapper .no-problems span {
+      font-style: italic; }
+
 /*# sourceMappingURL=style.css.map */
