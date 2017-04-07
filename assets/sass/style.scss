@@ -1,13 +1,61 @@
 @import "reset";
 @import "fonts";
+
 $font: roboto, opensans, sans-serif;
 
-.header-banner {
-	background: url('../images/image_header_bg.jpg') no-repeat;
-	text-align: center;
+%tdtt {
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
-	h2 {
-		font: 600 
-	}
-	
+a {
+	display: inline-block;
+}
+
+/* ==========================================================================
+   2. Header banner
+   ========================================================================== */
+
+.header-banner {
+    background: url("../images/image_header_bg.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    .banner-content {
+        padding: 10% 0 21%;
+
+        h2 {
+            font: 500 2.5vw $font;
+            letter-spacing: 15px;
+            text-transform: uppercase;
+
+            span {
+                color: #8b93a0;
+            }
+        }
+
+        p {
+            margin: 1% 0 5%;
+            color: #8b93a0;
+            font: 400 1vw $font;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+
+            span {
+            	font-style: italic;
+            }
+        }
+
+        a {
+            padding: 20px 30px;
+            border-radius: 5px;
+            border-bottom: 4px solid #208783;
+            background-color: #39d3cd;
+            color: #fff;
+            font: 600 1vw $font;
+            letter-spacing: 2px;
+
+            @extend %tdtt;
+        }
+    }
 }

@@ -238,10 +238,43 @@ sub {
 @font-face {
   font-family: 'opensans';
   src: url("../vendor/fonts/OpenSans-Regular.ttf"); }
+.header-banner .banner-content a {
+  text-decoration: none;
+  text-transform: uppercase; }
+
+a {
+  display: inline-block; }
+
+/* ==========================================================================
+   2. Header banner
+   ========================================================================== */
 .header-banner {
   background: url("../images/image_header_bg.jpg") no-repeat;
+  background-size: cover;
   text-align: center; }
-  .header-banner h2 {
-    font: 600; }
+  .header-banner .banner-content {
+    padding: 10% 0 21%; }
+    .header-banner .banner-content h2 {
+      font: 500 2.5vw roboto, opensans, sans-serif;
+      letter-spacing: 15px;
+      text-transform: uppercase; }
+      .header-banner .banner-content h2 span {
+        color: #8b93a0; }
+    .header-banner .banner-content p {
+      margin: 1% 0 5%;
+      color: #8b93a0;
+      font: 400 1vw roboto, opensans, sans-serif;
+      letter-spacing: 2px;
+      word-spacing: 2px; }
+      .header-banner .banner-content p span {
+        font-style: italic; }
+    .header-banner .banner-content a {
+      padding: 20px 30px;
+      border-radius: 5px;
+      border-bottom: 4px solid #208783;
+      background-color: #39d3cd;
+      color: #fff;
+      font: 600 1vw roboto, opensans, sans-serif;
+      letter-spacing: 2px; }
 
 /*# sourceMappingURL=style.css.map */
