@@ -27,6 +27,13 @@ h4 {
     word-spacing: 2px;
 }
 
+p{
+    color: #8b93a0;
+    font: 400 1vw $font;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
 .seperator {
     margin-bottom: 5%;
 }
@@ -47,6 +54,23 @@ h4 {
 	width: 20%;
 	border-top: 2px dotted  #8b93a0;
 	display:inline-block;
+}
+
+ul.carousels {
+    list-style-type: none;
+    text-align: center;
+
+    li {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #8b93a0;
+        border-radius: 50%;
+        display: inline-block;
+    
+    &:first-child{
+        background-color: #000;
+    }
+    }
 }
 /* ==========================================================================
    2. Header banner
@@ -72,10 +96,6 @@ h4 {
 
         p {
             margin: 1% 0 5%;
-            color: #8b93a0;
-            font: 400 1vw $font;
-            letter-spacing: 2px;
-            word-spacing: 2px;
 
             span {
             	font-style: italic;
@@ -139,12 +159,7 @@ p{
         align-items: center;
         background-color: #5bcad8;
     }
-    p{
-        color: #8b93a0;
-        font: 400 1vw $font;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-    }
+    
     .row {
         span {
             width: 10%;
@@ -154,7 +169,28 @@ p{
             background-color: #5bcad8; 
 
         }
-    }
+    }   
+}
 
+/* 2.3 Responsive Design
+========================================================================== */
+
+.responsive-design {
+    display: flex;
+
+}
+.responsive-design-wrapper {
+    padding: 12% 26% 15% 10%;
     
+h3, .seperator {
+    text-align: center;
+}
+p{
+    margin-bottom: 5%;
+}
+
+.carousels {
+    margin-top: 30%;
+}
+
 }
