@@ -11,19 +11,21 @@
     1.1. Eric Meyers Reset/HTML5 display-role reset for older browsers
     1.2. Clear Fix
     1.3. Font class declaration
-  2. Body
-  3. Header / .header
-    2.1. Navigation / .navbar
-  4. Content / .content
-    4.1. Left column / .leftcolumn
-    4.2. Right column / .rightcolumn
-    4.3. Sidebar / .sidebar
-      4.3.1. RSS / .rss
-      4.3.2. Search / .search
-      4.3.3. Boxes / .box
-      4.3.4. Sideblog / .sideblog
-      4.3.5. Advertisements / .ads
-  5. Footer / .footer
+
+  2. Header-banner 
+    2.1. Navigation
+    2.2 Banner-content 
+  3. main
+    3.1 Portfolio
+    3.2 Services
+    3.3 Responsive Design
+    3.4 Problems
+    3.5 Creative
+    3.6 Ignite
+    3.7 Team
+    3.8 Subscribe
+    3.9 Content
+  4. Footer
   ------------------------------------------------------------------*/
 /*------------------------------------------------------------------
   [Color codes]
@@ -229,5 +231,17 @@ sub {
   font-family: "Futura Bold", "Gill Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold; }
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../vendor/fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: 'opensans';
+  src: url("../vendor/fonts/OpenSans-Regular.ttf"); }
+.header-banner {
+  background: url("../images/image_header_bg.jpg") no-repeat;
+  text-align: center; }
+  .header-banner h2 {
+    font: 600; }
 
 /*# sourceMappingURL=style.css.map */
