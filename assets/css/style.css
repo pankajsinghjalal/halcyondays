@@ -245,6 +245,26 @@ sub {
 a {
   display: inline-block; }
 
+h3 {
+  font: 400 1.5vw roboto, opensans, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  word-spacing: 2px; }
+
+.fa-sort-desc {
+  margin: 0 3%;
+  font-size: 2vw; }
+
+.left-dotted {
+  width: 20%;
+  border-top: 2px dotted  #8b93a0;
+  display: inline-block; }
+
+.right-dotted {
+  width: 20%;
+  border-top: 2px dotted  #8b93a0;
+  display: inline-block; }
+
 /* ==========================================================================
    2. Header banner
    ========================================================================== */
@@ -276,5 +296,22 @@ a {
       color: #fff;
       font: 600 1vw roboto, opensans, sans-serif;
       letter-spacing: 2px; }
+
+/* ==========================================================================
+   2. Header banner
+   ========================================================================== */
+   /* 2.1 Porfolio
+========================================================================== */
+.portfolio {
+  background-color: #f7f2f2; }
+  .portfolio .portfolio-wrapper {
+    padding: 6% 6%;
+    text-align: center; }
+  .portfolio p {
+    margin-top: 5%;
+    color: #8b93a0;
+    font: 400 1.2vw roboto, opensans, sans-serif; }
+    .portfolio p span {
+      color: #423d3d; }
 
 /*# sourceMappingURL=style.css.map */

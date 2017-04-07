@@ -12,6 +12,29 @@ a {
 	display: inline-block;
 }
 
+h3 {
+	font: 400 1.5vw $font;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	word-spacing: 2px;
+}
+
+.fa-sort-desc {
+	margin: 0 3%;
+	font-size: 2vw;
+} 
+
+.left-dotted {
+	width: 20%;
+	border-top: 2px dotted  #8b93a0;
+	display:inline-block;
+}
+
+.right-dotted {
+	width: 20%;
+	border-top: 2px dotted  #8b93a0;
+	display:inline-block;
+}
 /* ==========================================================================
    2. Header banner
    ========================================================================== */
@@ -58,4 +81,29 @@ a {
             @extend %tdtt;
         }
     }
+}
+/* ==========================================================================
+   2. Header banner
+   ========================================================================== */
+
+   /* 2.1 Porfolio
+========================================================================== */
+.portfolio {
+background-color: #f7f2f2;
+
+.portfolio-wrapper {
+	padding: 6% 6%;
+	text-align: center;
+}
+p{
+	margin-top: 5%;
+	color: #8b93a0;
+	font: 400 1.2vw $font;
+
+	span {
+		color: #423d3d;
+	}
+}
+
+
 }
