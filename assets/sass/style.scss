@@ -13,10 +13,22 @@ a {
 }
 
 h3 {
+	margin-bottom: 1%;
 	font: 400 1.5vw $font;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	word-spacing: 2px;
+}
+
+h4 {
+    font: 400 1.2vw $font;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+.seperator {
+    margin-bottom: 5%;
 }
 
 .fa-sort-desc {
@@ -26,6 +38,7 @@ h3 {
 
 .left-dotted {
 	width: 20%;
+    color: #8b93a0;
 	border-top: 2px dotted  #8b93a0;
 	display:inline-block;
 }
@@ -70,7 +83,7 @@ h3 {
         }
 
         a {
-            padding: 20px 30px;
+            padding: 1% 2%;
             border-radius: 5px;
             border-bottom: 4px solid #208783;
             background-color: #39d3cd;
@@ -96,7 +109,6 @@ background-color: #f7f2f2;
 	text-align: center;
 }
 p{
-	margin-top: 5%;
 	color: #8b93a0;
 	font: 400 1.2vw $font;
 
@@ -104,6 +116,45 @@ p{
 		color: #423d3d;
 	}
 }
+}
 
+/* 2.2 Services
+========================================================================== */
+.services-wrapper {
+	padding: 6% 0;
+	text-align: center;
+	
+    .fa-laptop, .fa-code, .fa-heart {
+        color: #fff;
+        font-size: 3vw;
+    }
+    
+    .services-circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #5bcad8;
+    }
+    p{
+        color: #8b93a0;
+        font: 400 1vw $font;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .row {
+        span {
+            width: 10%;
+            height: 3px;
+            margin: 4% 0;
+            display: inline-block;
+            background-color: #5bcad8; 
 
+        }
+    }
+
+    
 }
