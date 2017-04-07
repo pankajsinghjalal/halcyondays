@@ -439,4 +439,36 @@ ul.carousels {
       background-color: #fff;
       color: #2c2d35; }
 
+ /* 2.6 Team
+========================================================================== */
+.team-wrapper {
+  padding: 6% 0;
+  text-align: center; }
+  .team-wrapper .row span {
+    width: 10%;
+    height: 3px;
+    margin: 4% 0;
+    display: inline-block;
+    background-color: #5bcad8; }
+  .team-wrapper .row h4 {
+    margin-top: 12%; }
+  .team-wrapper .row ul {
+    margin-top: 5%; }
+    .team-wrapper .row ul li {
+      border-radius: 50%;
+      margin-right: 7px;
+      display: inline-block;
+      background-color: #2c2d35;
+      color: #fff; }
+  .team-wrapper .row .fa-facebook, .team-wrapper .row .fa-twitter, .team-wrapper .row .fa-envelope-o {
+    color: #fff;
+    font-size: 1.2vw; }
+  .team-wrapper .row a {
+    padding: 15px; }
+    .team-wrapper .row a:hover {
+      background-color: #5bcad8;
+      border-radius: 50%; }
+  .team-wrapper .carousels {
+    margin-top: 6%; }
+
 /*# sourceMappingURL=style.css.map */
