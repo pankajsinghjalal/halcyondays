@@ -260,3 +260,24 @@ p{
     }
 
 }
+
+ /* 2.6 Ignite
+========================================================================== */
+.ignite {
+    padding: 6% 0;
+    background-color: #2c2d35;
+    text-align: center;
+    a {
+        padding: 1% 2%;
+        border: 1px solid #fff;
+        @extend %tdtt;
+        color: #fff;
+        font: 400 1.5vw $font; 
+       
+        &:hover {
+        background-color: #fff;
+        color: #2c2d35;
+        }
+
+    }
+}
