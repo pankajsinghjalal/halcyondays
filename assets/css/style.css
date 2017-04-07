@@ -350,7 +350,7 @@ ul.carousels {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: 0 auto 5%;
+    margin: 0 auto 8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -384,7 +384,7 @@ ul.carousels {
   background-position: center; }
 
 .problems-wrapper {
-  padding: 7% 0;
+  padding: 7% 0 4%;
   text-align: center; }
   .problems-wrapper p {
     color: #fff;
@@ -397,5 +397,31 @@ ul.carousels {
     font: 400 1.5vw roboto, opensans, sans-serif; }
     .problems-wrapper .no-problems span {
       font-style: italic; }
+  .problems-wrapper .problems-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 3% auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5bcad8;
+    color: #fff; }
+
+ /* 2.5 Creative
+========================================================================== */
+.creative-wrapper {
+  padding: 6% 0;
+  text-align: center; }
+  .creative-wrapper .row span {
+    width: 10%;
+    height: 3px;
+    margin: 4% 0;
+    display: inline-block;
+    background-color: #5bcad8; }
+  .creative-wrapper .row h4 {
+    margin-top: 12%; }
+  .creative-wrapper .carousels {
+    margin-top: 6%; }
 
 /*# sourceMappingURL=style.css.map */
