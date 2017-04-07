@@ -471,4 +471,58 @@ ul.carousels {
   .team-wrapper .carousels {
     margin-top: 6%; }
 
+ /* 2.6 Subscribe 
+========================================================================== */
+.subscribe {
+  position: relative;
+  background-color: #2c2d35; }
+  .subscribe .subscribe-wrapper {
+    text-align: center;
+    padding: 7% 0 8%; }
+  .subscribe .fa-paper-plane-o {
+    display: block;
+    color: #fff;
+    font-size: 2vw; }
+  .subscribe span {
+    margin: 1% 0 2%;
+    display: block;
+    color: #fff;
+    font: 400 1.2vw roboto, opensans, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: uppercase; }
+  .subscribe .form-control {
+    background-color: transparent; }
+  .subscribe input[type="text"] {
+    padding: 5% 13%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff; }
+  .subscribe button[type="submit"] {
+    padding: 1%;
+    border: none;
+    border-radius: 0;
+    background-color: #5bcad8;
+    color: #fff;
+    font: 400 1vw roboto, opensans, sans-serif;
+    text-transform: uppercase; }
+    .subscribe button[type="submit"]:hover {
+      color: #5bcad8;
+      background-color: #fff; }
+  .subscribe .scroll-up {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -4%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.7;
+    background-color: #5bcad8; }
+    .subscribe .scroll-up .fa-chevron-up {
+      color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
