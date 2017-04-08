@@ -481,6 +481,39 @@ p{
     }
 }
 
+/* ==========================================================================
+   3. Footer
+   ========================================================================== */
+footer {
+  background-color: #2c2d35;
+
+.footer-wrapper {
+  padding: 5% 0;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  li {
+    display: inline-block;
+    color: #fff;
+    list-style-type: none;
+    text-transform: capitalize;
+  &:first-child::after {
+    padding-left: 8px;
+    content: "|";
+  }
+
+  a {
+    color:#fff;
+  }
+  }
+
+}
+p {
+  color: #fff;
+}
+
+}
 
 
 

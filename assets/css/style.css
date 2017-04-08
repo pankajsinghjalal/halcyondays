@@ -579,4 +579,26 @@ ul.carousels {
   .contact-wrapper #three {
     background-position: -62px -11px; }
 
+/* ==========================================================================
+   3. Footer
+   ========================================================================== */
+footer {
+  background-color: #2c2d35; }
+  footer .footer-wrapper {
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between; }
+  footer ul li {
+    display: inline-block;
+    color: #fff;
+    list-style-type: none;
+    text-transform: capitalize; }
+    footer ul li:first-child::after {
+      padding-left: 8px;
+      content: "|"; }
+    footer ul li a {
+      color: #fff; }
+  footer p {
+    color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
