@@ -388,6 +388,7 @@ p{
         justify-content: center;
         align-items: center;
         position: absolute;
+        z-index: 4;
         bottom: -4%;
         left: 50%;
         transform: translateX(-50%);
@@ -397,8 +398,103 @@ p{
         
         .fa-chevron-up {
             color: #fff;
-           
+
 
         }
     }
 }
+
+ /* 2.7 Contact 
+========================================================================== */
+.contact {
+    position: relative;
+    // background: url(../images/image_think_alike.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
+            url('../images/image_subscribe_bg.jpg');
+}
+
+.contact-wrapper {
+   padding: 6%;
+  
+  .contact-detail {
+    padding: 2% 2%;
+    margin: 0 1%;
+    background-color: #fff;
+  }
+  .contact-flex {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  h3 {
+    color: #fff;
+  }
+  .fa-sort-desc {
+    color: #fff;
+  }
+  
+  .contact-head {
+    margin: 5% 0;
+    display: block;
+    color: #5bcad8;
+    font: 400 1.2vw $font;
+    text-transform: uppercase;
+  }
+  .contact-body {
+    padding-bottom: 15%;
+    display: block;
+    color: #000;
+    font: 400 1.2vw $font;
+  }
+    .fa-map-marker, .fa-mobile, .fa-paper-plane {
+        padding-top:15%;
+    }
+    
+    
+    ul {
+        margin-top: 7%;
+    }
+    .sprite {
+        width: 23px;
+        height: 23px;
+        display: inline-block;
+        background: url(../images/sprite.png);
+        cursor: pointer;
+
+        a {
+            width: 23px;
+            height: 23px;
+        }
+    }
+    #one {
+        background-position: -5px -10px ;
+    }
+    #two {
+        background-position: -34px -11px ;
+    }
+    #three {
+        background-position: -62px -11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

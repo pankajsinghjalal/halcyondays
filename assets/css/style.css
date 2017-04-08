@@ -517,6 +517,7 @@ ul.carousels {
     justify-content: center;
     align-items: center;
     position: absolute;
+    z-index: 4;
     bottom: -4%;
     left: 50%;
     transform: translateX(-50%);
@@ -524,5 +525,58 @@ ul.carousels {
     background-color: #5bcad8; }
     .subscribe .scroll-up .fa-chevron-up {
       color: #fff; }
+
+ /* 2.7 Contact 
+========================================================================== */
+.contact {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: linear-gradient(transparent, transparent), url("../images/image_subscribe_bg.jpg"); }
+
+.contact-wrapper {
+  padding: 6%; }
+  .contact-wrapper .contact-detail {
+    padding: 2% 2%;
+    margin: 0 1%;
+    background-color: #fff; }
+  .contact-wrapper .contact-flex {
+    display: flex;
+    justify-content: space-between; }
+  .contact-wrapper h3 {
+    color: #fff; }
+  .contact-wrapper .fa-sort-desc {
+    color: #fff; }
+  .contact-wrapper .contact-head {
+    margin: 5% 0;
+    display: block;
+    color: #5bcad8;
+    font: 400 1.2vw roboto, opensans, sans-serif;
+    text-transform: uppercase; }
+  .contact-wrapper .contact-body {
+    padding-bottom: 15%;
+    display: block;
+    color: #000;
+    font: 400 1.2vw roboto, opensans, sans-serif; }
+  .contact-wrapper .fa-map-marker, .contact-wrapper .fa-mobile, .contact-wrapper .fa-paper-plane {
+    padding-top: 15%; }
+  .contact-wrapper ul {
+    margin-top: 7%; }
+  .contact-wrapper .sprite {
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    background: url(../images/sprite.png);
+    cursor: pointer; }
+    .contact-wrapper .sprite a {
+      width: 23px;
+      height: 23px; }
+  .contact-wrapper #one {
+    background-position: -5px -10px; }
+  .contact-wrapper #two {
+    background-position: -34px -11px; }
+  .contact-wrapper #three {
+    background-position: -62px -11px; }
 
 /*# sourceMappingURL=style.css.map */
