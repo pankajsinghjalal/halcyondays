@@ -629,6 +629,12 @@ footer {
   h3 {
     font-size: 2vw; }
 
+  p {
+    font-size: 1.7vw; }
+
+  h4 {
+    font-size: 1.7vw; }
+
   .header-banner nav a {
     font-size: 1.5vw; }
   .header-banner nav .fa-search {
@@ -637,10 +643,23 @@ footer {
     font-size: 3vw; }
   .header-banner .banner-content p {
     font-size: 1.5vw; }
+  .header-banner .banner-content a {
+    font-size: 1.5vw; }
 
   /* Portfolio
 ========================================================================== */
   .portfolio p {
-    font-size: 1.7vw; } }
+    font-size: 1.7vw; }
+
+  /* Services
+  ========================================================================== */
+  .services-wrapper .fa-laptop, .services-wrapper .fa-code, .services-wrapper .fa-heart {
+    font-size: 5vw; }
+  .services-wrapper .services-circle {
+    margin-bottom: 2%; }
+  .services-wrapper .row span {
+    margin: 2% 0; }
+  .services-wrapper p {
+    margin-bottom: 5%; } }
 
 /*# sourceMappingURL=style.css.map */

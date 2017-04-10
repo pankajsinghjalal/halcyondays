@@ -561,6 +561,14 @@ p {
     font-size : 2vw;
    } 
 
+   p {
+    font-size: 1.7vw;
+   }
+
+   h4 {
+    font-size: 1.7vw;
+   }
+
 .header-banner {
     nav {
         a {
@@ -578,6 +586,9 @@ p {
         p {
             font-size: 1.5vw;
         }
+        a {
+            font-size: 1.5vw;
+        }
     }
 }
 
@@ -589,7 +600,25 @@ p {
     }
 }
 
+/* Services
+========================================================================== */
 
+.services-wrapper {
+    .fa-laptop, .fa-code, .fa-heart {
+        font-size: 5vw;
+    }
+    .services-circle{
+        margin-bottom: 2%;
+    }
+    .row {
+        span {
+            margin : 2% 0;
+        }
+    }
+    p {
+        margin-bottom: 5%;
+    }
+}
 
 }//media query
 
