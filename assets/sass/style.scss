@@ -72,6 +72,10 @@ ul.carousels {
         background-color: #000;
     }
     }
+    a {
+        width: 100%;
+        height: 100%;
+    }
 }
 /* ==========================================================================
    2. Header banner
@@ -224,6 +228,11 @@ p{
 
 .carousels {
     margin-top: 30%;
+
+    a {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 }
@@ -628,7 +637,48 @@ p {
     }
 }
 
+/* Creative 
+========================================================================== */
+.creative-wrapper {
+    img {
+        margin: 0 auto;
+    }
+    .row {
+        h4 {
+            margin-top: 3%;
+        }
+        span {
+            margin: 2% 0;
+        }
+       p {
+        margin-bottom : 6%;
+       } 
+    }
+}
+
+
+
+
 }//media query
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

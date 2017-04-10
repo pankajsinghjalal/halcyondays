@@ -295,6 +295,9 @@ ul.carousels {
     display: inline-block; }
     ul.carousels li:first-child {
       background-color: #000; }
+  ul.carousels a {
+    width: 100%;
+    height: 100%; }
 
 /* ==========================================================================
    2. Header banner
@@ -394,6 +397,9 @@ ul.carousels {
     margin-bottom: 5%; }
   .responsive-design-wrapper .carousels {
     margin-top: 30%; }
+    .responsive-design-wrapper .carousels a {
+      width: 100%;
+      height: 100%; }
 
 /* 2.4 Problems
 ========================================================================== */
@@ -665,6 +671,17 @@ footer {
   /* Responsive Design
   ========================================================================== */
   .responsive-design-wrapper p {
-    margin-bottom: 7%; } }
+    margin-bottom: 7%; }
+
+  /* Creative 
+  ========================================================================== */
+  .creative-wrapper img {
+    margin: 0 auto; }
+  .creative-wrapper .row h4 {
+    margin-top: 3%; }
+  .creative-wrapper .row span {
+    margin: 2% 0; }
+  .creative-wrapper .row p {
+    margin-bottom: 6%; } }
 
 /*# sourceMappingURL=style.css.map */
