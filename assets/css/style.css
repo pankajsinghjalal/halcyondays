@@ -626,6 +626,9 @@ footer {
     /* Header Banner
 ========================================================================== */
 @media only screen and (max-width: 992px) {
+  h3 {
+    font-size: 2vw; }
+
   .header-banner nav a {
     font-size: 1.5vw; }
   .header-banner nav .fa-search {
@@ -633,6 +636,11 @@ footer {
   .header-banner .banner-content h2 {
     font-size: 3vw; }
   .header-banner .banner-content p {
-    font-size: 1.5vw; } }
+    font-size: 1.5vw; }
+
+  /* Portfolio
+========================================================================== */
+  .portfolio p {
+    font-size: 1.7vw; } }
 
 /*# sourceMappingURL=style.css.map */
