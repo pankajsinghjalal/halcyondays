@@ -460,8 +460,7 @@ p{
    padding: 6%;
   
   .contact-detail {
-    padding: 2% 2%;
-    margin: 0 1%;
+    margin: 0 15px;
     background-color: #fff;
   }
   .contact-flex {
@@ -545,6 +544,7 @@ ul {
 
   a {
     color:#fff;
+    
   }
   }
 
@@ -698,6 +698,15 @@ p {
         font-size : 1.7vw;
     }
 }
+
+/* Contact
+========================================================================== */
+.contact-wrapper {
+    .fa-map-marker, .fa-mobile, .fa-paper-plane {
+        font-size: 2vw;
+    }
+}
+
 
 }//media query
 
