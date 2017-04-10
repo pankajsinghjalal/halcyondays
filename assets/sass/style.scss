@@ -544,7 +544,10 @@ ul {
 
   a {
     color:#fff;
-    
+    font: 400 1vw $font;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+
   }
   }
 
@@ -707,6 +710,18 @@ p {
     }
 }
 
+/* Footer
+========================================================================== */
+footer {
+    ul {
+        li a {
+            font-size: 1.2vw;
+        }
+    }
+    p {
+        font-size: 1.2vw;
+    }
+}
 
 }//media query
 

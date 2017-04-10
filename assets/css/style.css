@@ -619,7 +619,10 @@ footer {
       padding-left: 8px;
       content: "|"; }
     footer ul li a {
-      color: #fff; }
+      color: #fff;
+      font: 400 1vw roboto, opensans, sans-serif;
+      letter-spacing: 2px;
+      word-spacing: 2px; }
   footer p {
     color: #fff; }
 
@@ -711,6 +714,13 @@ footer {
   /* Contact
   ========================================================================== */
   .contact-wrapper .fa-map-marker, .contact-wrapper .fa-mobile, .contact-wrapper .fa-paper-plane {
-    font-size: 2vw; } }
+    font-size: 2vw; }
+
+  /* Footer
+  ========================================================================== */
+  footer ul li a {
+    font-size: 1.2vw; }
+  footer p {
+    font-size: 1.2vw; } }
 
 /*# sourceMappingURL=style.css.map */
