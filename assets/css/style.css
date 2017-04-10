@@ -519,19 +519,17 @@ ul.carousels {
   .subscribe .form-control {
     background-color: transparent; }
   .subscribe input[type="text"] {
-    padding: 5% 13%;
     background-color: transparent;
     border: 1px solid #fff;
     color: #fff; }
-  .subscribe button[type="submit"] {
-    padding: 1%;
+  .subscribe button[type="button"] {
     border: none;
     border-radius: 0;
     background-color: #5bcad8;
     color: #fff;
-    font: 400 1vw roboto, opensans, sans-serif;
+    font-family: roboto, opensans, sans-serif;
     text-transform: uppercase; }
-    .subscribe button[type="submit"]:hover {
+    .subscribe button[type="button"]:hover {
       color: #5bcad8;
       background-color: #fff; }
   .subscribe .scroll-up {
@@ -543,7 +541,7 @@ ul.carousels {
     align-items: center;
     position: absolute;
     z-index: 4;
-    bottom: -4%;
+    bottom: -6%;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0.7;
@@ -673,6 +671,10 @@ footer {
   .responsive-design-wrapper p {
     margin-bottom: 7%; }
 
+  .responsive-design .iphone img {
+    width: 100%;
+    height: 80%; }
+
   /* Creative 
   ========================================================================== */
   .creative-wrapper img {
@@ -687,6 +689,24 @@ footer {
   /* Ignite
   ========================================================================== */
   .ignite a {
-    font-size: 2vw; } }
+    font-size: 2vw; }
+
+  /* Team
+  ========================================================================== */
+  .team-wrapper .row h4 {
+    margin-top: 3%; }
+  .team-wrapper .row span {
+    margin: 2% 0; }
+  .team-wrapper .row ul {
+    margin: 3% 0 6%; }
+  .team-wrapper .row .fa-facebook, .team-wrapper .row .fa-twitter, .team-wrapper .row .fa-envelope-o {
+    font-size: 1.7vw; }
+
+  /* Subscribe
+  ========================================================================== */
+  .subscribe .fa-paper-plane-o {
+    font-size: 2.5vw; }
+  .subscribe span {
+    font-size: 1.7vw; } }
 
 /*# sourceMappingURL=style.css.map */

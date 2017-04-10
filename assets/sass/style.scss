@@ -404,18 +404,16 @@ p{
         background-color: transparent;
     }
     input[type="text"]{
-        padding: 5% 13%;
         background-color: transparent; 
         border: 1px solid #fff;
         color: #fff; 
     }
-    button[type="submit"]{
-        padding: 1%;
+    button[type="button"]{
         border: none;
         border-radius: 0;
         background-color:  #5bcad8;
         color: #fff;
-        font: 400 1vw $font;
+        font-family: $font;
         text-transform: uppercase;
         &:hover {
             color: #5bcad8;
@@ -431,7 +429,7 @@ p{
         align-items: center;
         position: absolute;
         z-index: 4;
-        bottom: -4%;
+        bottom: -6%;
         left: 50%;
         transform: translateX(-50%);
         opacity: 0.7;
@@ -636,7 +634,14 @@ p {
         margin-bottom: 7%;
     }
 }
-
+.responsive-design {
+    .iphone {
+        img {
+            width: 100%;
+            height: 80%;
+        }
+    }
+}
 /* Creative 
 ========================================================================== */
 .creative-wrapper {
@@ -664,6 +669,35 @@ p {
     }
 }
 
+/* Team
+========================================================================== */
+.team-wrapper {
+    .row{
+        h4 {
+            margin-top: 3%;
+        }
+        span {
+            margin: 2% 0;
+        }
+        ul {
+            margin: 3% 0 6%;
+        }
+        .fa-facebook, .fa-twitter, .fa-envelope-o {
+            font-size : 1.7vw;
+        }
+    }
+}
+
+/* Subscribe
+========================================================================== */
+.subscribe {
+    .fa-paper-plane-o{
+        font-size : 2.5vw;
+    }
+    span {
+        font-size : 1.7vw;
+    }
+}
 
 }//media query
 
