@@ -1,5 +1,6 @@
 @import "reset";
 @import "fonts";
+@import "mixins";
 
 $font: roboto, opensans, sans-serif;
 
@@ -81,6 +82,28 @@ ul.carousels {
     background-size: cover;
     text-align: center;
 
+    .icon-bar {
+        background-color: #000;
+    }
+    form {
+        .fa-search {
+            font-size: 1.2vw;
+        }
+
+
+    }
+        
+    nav {
+        a {
+            color: #000;
+            font: 400 1vw $font;
+            text-transform: uppercase;
+            &:hover {
+                color: #39d3cd;
+            }
+        }
+    }
+        
     .banner-content {
         padding: 10% 0 21%;
 
@@ -177,6 +200,16 @@ p{
 
 .responsive-design {
     display: flex;
+.iphone {
+    flex-basis: 50%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.responsive-design-flex {
+    flex-basis: 50%;
+}
 
 }
 .responsive-design-wrapper {
@@ -515,12 +548,37 @@ p {
 
 }
 
+/* ==========================================================================
+   Media queries
+   ========================================================================== */
+    
+    /* Header Banner
+========================================================================== */
+
+@include bp-medium {
+.header-banner {
+    nav {
+        a {
+            font-size: 1.5vw;
+        }
+
+        .fa-search {
+            font-size: 2vw;
+        }
+    }
+    .banner-content {
+        h2 {
+            font-size: 3vw;
+        }
+        p {
+            font-size: 1.5vw;
+        }
+    }
+}
 
 
 
-
-
-
+}//media query
 
 
 

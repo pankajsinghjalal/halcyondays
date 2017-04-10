@@ -26,6 +26,7 @@
     3.8 Subscribe
     3.9 Content
   4. Footer
+  5. Media Queries
   ------------------------------------------------------------------*/
 /*------------------------------------------------------------------
   [Color codes]
@@ -238,6 +239,7 @@ sub {
 @font-face {
   font-family: 'opensans';
   src: url("../vendor/fonts/OpenSans-Regular.ttf"); }
+/*media queries*/
 .header-banner .banner-content a, .ignite a {
   text-decoration: none;
   text-transform: uppercase; }
@@ -301,6 +303,16 @@ ul.carousels {
   background: url("../images/image_header_bg.jpg") no-repeat;
   background-size: cover;
   text-align: center; }
+  .header-banner .icon-bar {
+    background-color: #000; }
+  .header-banner form .fa-search {
+    font-size: 1.2vw; }
+  .header-banner nav a {
+    color: #000;
+    font: 400 1vw roboto, opensans, sans-serif;
+    text-transform: uppercase; }
+    .header-banner nav a:hover {
+      color: #39d3cd; }
   .header-banner .banner-content {
     padding: 10% 0 21%; }
     .header-banner .banner-content h2 {
@@ -366,6 +378,13 @@ ul.carousels {
 ========================================================================== */
 .responsive-design {
   display: flex; }
+  .responsive-design .iphone {
+    flex-basis: 50%; }
+    .responsive-design .iphone img {
+      width: 100%;
+      height: 100%; }
+  .responsive-design .responsive-design-flex {
+    flex-basis: 50%; }
 
 .responsive-design-wrapper {
   padding: 12% 26% 15% 10%; }
@@ -600,5 +619,20 @@ footer {
       color: #fff; }
   footer p {
     color: #fff; }
+
+/* ==========================================================================
+   Media queries
+   ========================================================================== */
+    /* Header Banner
+========================================================================== */
+@media only screen and (max-width: 992px) {
+  .header-banner nav a {
+    font-size: 1.5vw; }
+  .header-banner nav .fa-search {
+    font-size: 2vw; }
+  .header-banner .banner-content h2 {
+    font-size: 3vw; }
+  .header-banner .banner-content p {
+    font-size: 1.5vw; } }
 
 /*# sourceMappingURL=style.css.map */
