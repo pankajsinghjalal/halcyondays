@@ -660,6 +660,11 @@ footer {
   .services-wrapper .row span {
     margin: 2% 0; }
   .services-wrapper p {
-    margin-bottom: 5%; } }
+    margin-bottom: 5%; }
+
+  /* Responsive Design
+  ========================================================================== */
+  .responsive-design-wrapper p {
+    margin-bottom: 7%; } }
 
 /*# sourceMappingURL=style.css.map */
