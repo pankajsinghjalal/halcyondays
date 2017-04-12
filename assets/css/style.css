@@ -726,6 +726,18 @@ footer {
    Media querie for small screen (max-width: 768px)
    ========================================================================== */
 @media only screen and (max-width: 767px) {
+  h3 {
+    font-size: 3vw; }
+
+  .fa-sort-desc {
+    font-size: 4vw; }
+
+  h4 {
+    font-size: 2.7vw; }
+
+  p {
+    font-size: 2.4vw; }
+
  /* Header Banner
 ========================================================================== */
   .header-banner nav a {
@@ -739,6 +751,20 @@ footer {
   .header-banner .banner-content a {
     padding: 2% 3%;
     border-bottom: 3px solid #208783;
-    font-size: 2.5vw; } }
+    font-size: 2.5vw; }
+
+  /* Portfolio
+========================================================================== */
+  .portfolio p {
+    font-size: 2.4vw; }
+
+  /* Services
+  ========================================================================== */
+  .services-wrapper .fa-laptop, .services-wrapper .fa-code, .services-wrapper .fa-heart {
+    font-size: 6vw; }
+  .services-wrapper .services-circle {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2%; } }
 
 /*# sourceMappingURL=style.css.map */

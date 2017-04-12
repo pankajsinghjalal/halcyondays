@@ -731,6 +731,21 @@ footer {
    ========================================================================== */
 @include bp-small {
 
+h3 {
+    font-size: 3vw;
+}
+.fa-sort-desc {
+    font-size: 4vw;
+}
+
+h4 {
+    font-size: 2.7vw;
+}
+
+p {
+    font-size: 2.4vw;
+}
+
  /* Header Banner
 ========================================================================== */
 
@@ -758,9 +773,28 @@ footer {
     }
 }
 
+  /* Portfolio
+========================================================================== */
+.portfolio {
+    p{
+        font-size: 2.4vw;
+    }
+}
 
+/* Services
+========================================================================== */
 
-
+.services-wrapper {
+    .fa-laptop, .fa-code, .fa-heart {
+        font-size: 6vw;
+    }
+    .services-circle{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 2%;
+    }
+    
+}
 
 
 
