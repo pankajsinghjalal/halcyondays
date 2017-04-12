@@ -793,6 +793,26 @@ footer {
   /* Team
   ========================================================================== */
   .team-wrapper .row .fa-facebook, .team-wrapper .row .fa-twitter, .team-wrapper .row .fa-envelope-o {
-    font-size: 2.7vw; } }
+    font-size: 2.7vw; }
+
+  /* Subscribe
+  ========================================================================== */
+  .subscribe .fa-paper-plane-o {
+    font-size: 3.5vw; }
+  .subscribe span {
+    font-size: 2.7vw; }
+
+  /* Contact
+  ========================================================================== */
+  .contact-wrapper .contact-flex {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .contact-wrapper .contact-detail {
+    margin-bottom: 4%;
+    flex-basis: 60%; }
+  .contact-wrapper .fa-map-marker, .contact-wrapper .fa-mobile, .contact-wrapper .fa-paper-plane {
+    font-size: 3vw; }
+  .contact-wrapper .contact-head, .contact-wrapper .contact-body {
+    font-size: 2.2vw; } }
 
 /*# sourceMappingURL=style.css.map */

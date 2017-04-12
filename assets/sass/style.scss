@@ -845,6 +845,39 @@ p {
 }
 
 
+/* Subscribe
+========================================================================== */
+.subscribe {
+    .fa-paper-plane-o{
+        font-size : 3.5vw;
+    }
+    span {
+        font-size : 2.7vw;
+    }
+}
+
+/* Contact
+========================================================================== */
+.contact-wrapper {
+.contact-flex {
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.contact-detail {
+    margin-bottom: 4%;
+    flex-basis: 60%;
+}
+
+    .fa-map-marker, .fa-mobile, .fa-paper-plane {
+        font-size: 3vw;
+    }
+
+    .contact-head, .contact-body{
+        font-size: 2.2vw;
+    }
+}
+
+
 
 
 }//media query 768 ended
