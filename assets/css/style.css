@@ -670,8 +670,10 @@ footer {
 
   /* Responsive Design
   ========================================================================== */
-  .responsive-design-wrapper p {
-    margin-bottom: 7%; }
+  .responsive-design-wrapper {
+    padding: 10% 0; }
+    .responsive-design-wrapper p {
+      margin-bottom: 7%; }
 
   .responsive-design .iphone img {
     width: 100%;
@@ -758,6 +760,17 @@ footer {
   .portfolio p {
     font-size: 2.4vw; }
 
+ /* Creative 
+========================================================================== */
+  .creative-wrapper img {
+    margin: 0 auto; }
+  .creative-wrapper .row h4 {
+    margin-top: 3%; }
+  .creative-wrapper .row span {
+    margin: 2% 0; }
+  .creative-wrapper .row p {
+    margin-bottom: 6%; }
+
   /* Services
   ========================================================================== */
   .services-wrapper .fa-laptop, .services-wrapper .fa-code, .services-wrapper .fa-heart {
@@ -826,5 +839,124 @@ footer {
       font-size: 2vw; }
   footer p {
     font-size: 2vw; } }
+/* ==========================================================================
+   Media querie for extra -small screen (max-width: 500px)
+   ========================================================================== */
+@media only screen and (max-width: 500px) {
+  h3 {
+    font-size: 4vw; }
+
+  .fa-sort-desc {
+    font-size: 5vw; }
+
+  h4 {
+    font-size: 3.7vw; }
+
+  p {
+    font-size: 3.7vw; }
+
+    /* Header Banner
+========================================================================== */
+  .header-banner nav a {
+    font-size: 3.5vw; }
+  .header-banner nav .fa-search {
+    font-size: 4vw; }
+  .header-banner .banner-content h2 {
+    font-size: 5vw; }
+  .header-banner .banner-content p {
+    font-size: 3.2vw; }
+  .header-banner .banner-content a {
+    padding: 2% 3%;
+    border-bottom: 3px solid #208783;
+    font-size: 3.5vw; }
+
+  /* Portfolio
+========================================================================== */
+  .portfolio .portfolio-wrapper {
+    padding: 10% 6%; }
+  .portfolio p {
+    font-size: 3.4vw; }
+
+  /* Services
+  ========================================================================== */
+  .services-wrapper {
+    padding: 10% 0; }
+    .services-wrapper .fa-laptop, .services-wrapper .fa-code, .services-wrapper .fa-heart {
+      font-size: 7vw; }
+    .services-wrapper .services-circle {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 2%; }
+
+  /* Responsive Design
+  ========================================================================== */
+  .responsive-design-wrapper p {
+    margin-bottom: 10%; }
+  .responsive-design-wrapper .seperator {
+    margin-bottom: 13%; }
+
+  .responsive-design .iphone img {
+    width: 100%;
+    height: 50%; }
+
+  /* Problems
+  ========================================================================== */
+  .problems-wrapper .got-problems {
+    font-size: 5vw; }
+  .problems-wrapper .no-problems {
+    font-size: 3.5vw; }
+
+  /* Creative 
+  ========================================================================== */
+  .creative-wrapper {
+    padding: 10% 0; }
+
+  /* Ignite
+  ========================================================================== */
+  .ignite a {
+    font-size: 4vw; }
+
+  /* Team
+  ========================================================================== */
+  .team-wrapper {
+    padding: 10% 0; }
+    .team-wrapper .row .fa-facebook, .team-wrapper .row .fa-twitter, .team-wrapper .row .fa-envelope-o {
+      font-size: 3.7vw; }
+
+  /* Subscribe
+  ========================================================================== */
+  .subscribe .subscribe-wrapper {
+    padding: 10% 0; }
+  .subscribe .fa-paper-plane-o {
+    font-size: 4.5vw; }
+  .subscribe span {
+    font-size: 3.7vw; }
+
+  /* Contact
+  ========================================================================== */
+  .contact-wrapper {
+    padding: 10% 0; }
+    .contact-wrapper .contact-flex {
+      flex-wrap: wrap;
+      justify-content: center; }
+    .contact-wrapper .contact-detail {
+      margin-bottom: 4%;
+      flex-basis: 60%; }
+    .contact-wrapper .fa-map-marker, .contact-wrapper .fa-mobile, .contact-wrapper .fa-paper-plane {
+      font-size: 4vw; }
+    .contact-wrapper .contact-head, .contact-wrapper .contact-body {
+      font-size: 3.2vw; }
+
+  /* Footer
+  ========================================================================== */
+  footer .footer-wrapper {
+    display: block;
+    text-align: center; }
+  footer ul {
+    margin-bottom: 2%; }
+    footer ul li a {
+      font-size: 2.4vw; }
+  footer p {
+    font-size: 2.3vw; } }
 
 /*# sourceMappingURL=style.css.map */
