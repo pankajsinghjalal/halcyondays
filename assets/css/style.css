@@ -783,6 +783,16 @@ footer {
   .problems-wrapper .got-problems {
     font-size: 4vw; }
   .problems-wrapper .no-problems {
-    font-size: 2.5vw; } }
+    font-size: 2.5vw; }
+
+  /* Ignite
+  ========================================================================== */
+  .ignite a {
+    font-size: 3vw; }
+
+  /* Team
+  ========================================================================== */
+  .team-wrapper .row .fa-facebook, .team-wrapper .row .fa-twitter, .team-wrapper .row .fa-envelope-o {
+    font-size: 2.7vw; } }
 
 /*# sourceMappingURL=style.css.map */
