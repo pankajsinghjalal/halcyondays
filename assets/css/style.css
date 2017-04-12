@@ -627,7 +627,7 @@ footer {
     color: #fff; }
 
 /* ==========================================================================
-   Media queries
+   Media querie for medium screen (max-width: 992px)
    ========================================================================== */
     /* Header Banner
 ========================================================================== */
@@ -722,5 +722,23 @@ footer {
     font-size: 1.2vw; }
   footer p {
     font-size: 1.2vw; } }
+/* ==========================================================================
+   Media querie for small screen (max-width: 768px)
+   ========================================================================== */
+@media only screen and (max-width: 767px) {
+ /* Header Banner
+========================================================================== */
+  .header-banner nav a {
+    font-size: 2.5vw; }
+  .header-banner nav .fa-search {
+    font-size: 3vw; }
+  .header-banner .banner-content h2 {
+    font-size: 4vw; }
+  .header-banner .banner-content p {
+    font-size: 2.2vw; }
+  .header-banner .banner-content a {
+    padding: 2% 3%;
+    border-bottom: 3px solid #208783;
+    font-size: 2.5vw; } }
 
 /*# sourceMappingURL=style.css.map */
