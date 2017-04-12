@@ -877,6 +877,26 @@ p {
     }
 }
 
+/* Footer
+========================================================================== */
+footer {
+    .footer-wrapper {
+        display: block;
+        text-align: center;
+    }
+    ul {
+        margin-bottom: 2%;
+        li a {
+            font-size: 2vw;
+        }
+    }
+    p {
+        font-size: 2vw;
+    }
+}
+
+
+
 
 
 
