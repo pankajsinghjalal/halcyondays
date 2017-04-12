@@ -796,6 +796,38 @@ p {
     
 }
 
+/* Responsive Design
+========================================================================== */
+.responsive-design-wrapper {
+    p {
+        margin-bottom: 9%;
+    }
+    .seperator {
+        margin-bottom: 12%;
+    }
+}
+.responsive-design {
+    .iphone {
+        img {
+            width: 100%;
+            height: 50%;
+        }
+    }
+}
+
+/* Problems
+========================================================================== */
+.problems-wrapper {
+    .got-problems {
+        font-size: 4vw;
+    }
+    .no-problems {
+        font-size: 2.5vw;
+    }
+}
+
+
+
 
 
 }//media query 768 ended

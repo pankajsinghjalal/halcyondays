@@ -765,6 +765,24 @@ footer {
   .services-wrapper .services-circle {
     width: 100px;
     height: 100px;
-    margin-bottom: 2%; } }
+    margin-bottom: 2%; }
+
+  /* Responsive Design
+  ========================================================================== */
+  .responsive-design-wrapper p {
+    margin-bottom: 9%; }
+  .responsive-design-wrapper .seperator {
+    margin-bottom: 12%; }
+
+  .responsive-design .iphone img {
+    width: 100%;
+    height: 50%; }
+
+  /* Problems
+  ========================================================================== */
+  .problems-wrapper .got-problems {
+    font-size: 4vw; }
+  .problems-wrapper .no-problems {
+    font-size: 2.5vw; } }
 
 /*# sourceMappingURL=style.css.map */
